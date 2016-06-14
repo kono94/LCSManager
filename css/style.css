@@ -1,0 +1,400 @@
+body{	
+    color: ##333;   
+    height: 100%;
+	margin:0;
+	background-color:#3C3C3C;
+}
+body,html{
+	height:100%;
+	 margin:  0px auto;
+    padding: 0px auto;
+}
+#topbar{
+	position:relative;
+	width:100%;
+	margin-top:0px;
+	margin-bottom:0px;
+	height:50px;
+	background-color:#1E1E1E;
+}
+#side_navigation{
+	position:fixed;
+	width:200px;
+	height:100%;
+}
+#side_navigation ul {
+    height:100%	;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;   
+    background-color: #3C3C3C;
+}
+
+#side_navigation li a {
+    display: block;
+    color: #000;
+  
+    text-decoration: none;
+}
+
+#side_navigation li a.active_page {
+    background-color: #4CAF50;
+    color: white;
+}
+#side_navigation ul li a {
+    color: #d9d9d9;
+   text-align:center;   
+}
+#side_navigation li a:hover:not(.active_page) {
+    background-color: #555;
+    color: white;
+}
+.nav-img {
+    width: 30px;
+    height: 30px;
+}
+.nav-content{
+	
+}
+#pageWrapper{
+	position:relative;
+	height:auto;     
+    min-height: 100%;
+    margin: 0 0 0 200px;
+    padding:1px 16px;   
+    padding: 0 !important;
+    background-color: #f0f2f5;
+    transition: 0.3s all linear;
+}
+
+#page-content{
+	    padding: 20px 20px 50px 20px;
+}
+
+
+
+
+/*********************************************************************************/
+/* Summoners Rift                                                                */
+/*********************************************************************************/
+.player{
+	width:70px;
+	height:70px;
+}
+.player img{
+	width:70px;
+	height:70px;
+}
+
+.sp_top 
+{
+  position:absolute; 
+  top:30px; left:40px; 
+  width:76px;height:76px; 
+  border:3px solid rgba(0,0,0,0.7);
+ background:rgba(170,170,170,0.8);   
+}
+
+
+
+.sp_mid 
+{
+  position:absolute; top:210px; left:220px; 
+  width:76px;height:76px; 
+  border: 3px solid rgba(0,0,0,0.7);
+ background: rgba(170,170,170,0.8); 
+}
+
+
+
+.sp_jungle 
+{
+  position:absolute; top:180px; left:70px; 
+  width:76px;height:76px; 
+  border:3px solid rgba(0,0,0,0.7);
+   background: rgba(170,170,170,0.8);  
+}
+
+
+
+.sp_support 
+{
+  position:absolute; top:380px; left:300px; 
+  width:76px;height:76px; 
+  border:3px solid rgba(0,0,0,0.7);
+ background: rgba(170,170,170,0.8); 
+}
+
+
+
+.sp_adc 
+{
+  position:absolute; top:300px; left:390px; 
+  width:76px;height:76px; 
+  border:3px solid rgba(0,0,0,0.7);
+  background: rgba(170,170,170,0.8);
+  
+}
+.rebox1 
+{
+  position:absolute;
+  left:540px; 
+  width:76px;height:76px; 
+  border:3px solid rgba(0,0,0,0.7);
+ background:rgba(170,170,170,0.8);   
+}
+.rebox2 
+{
+  position:absolute;
+  top:76px; left:540px; 
+  width:76px;height:76px; 
+  border:3px solid rgba(0,0,0,0.7);
+ background:rgba(170,170,170,0.8);   
+}
+
+.rebox3 
+{
+  position:absolute;
+  top:152px; left:540px; 
+  width:76px;height:76px; 
+  border:3px solid rgba(0,0,0,0.7);
+ background:rgba(170,170,170,0.8);   
+}
+
+.rebox4 
+{
+  position:absolute;
+  top:228px; left:540px; 
+  width:76px;height:76px; 
+  border:3px solid rgba(0,0,0,0.7);
+ background:rgba(170,170,170,0.8);   
+}
+
+.rebox5 
+{
+  
+  position:absolute;
+  left:640px; 
+  width:76px;height:76px; 
+  border:3px solid rgba(0,0,0,0.7);
+ background:rgba(170,170,170,0.8);   
+}
+
+
+.rebox6 
+{
+  
+  position:absolute;
+  top:76px; left:640px; 
+  width:76px;height:76px; 
+  border:3px solid rgba(0,0,0,0.7);
+  background:rgba(170,170,170,0.8);   
+}
+
+
+
+.rebox7 
+{
+  
+  position:absolute;
+  top:152px; left:640px; 
+  width:76px;height:76px; 
+  border:3px solid rgba(0,0,0,0.7);
+  background:rgba(170,170,170,0.8);   
+}
+
+
+
+.rebox8 
+{
+  
+  position:absolute;
+  top:228px; left:640px; 
+  width:76px;height:76px; 
+  border:3px solid rgba(0,0,0,0.7);
+  background:rgba(170,170,170,0.8);   
+}
+
+
+.sellbox1 
+{
+	display:inline-block;
+  margin-top:8px;
+  margin-left:8px;
+  position:absolute;  
+  width:76px;height:76px; 
+  border:3px solid rgba(0,0,0,0.7);
+  background:rgba(170,170,170,0.8);   
+}
+
+.sellboxborder{
+position:absolute;
+  top:330px; left:540px; 
+  width:220px;height:94px; 
+  border:1px solid rgba(0,0,0,0.7);
+  
+
+}
+#Cashfield{
+position:relative;
+top:-120px;
+left:516px;
+font-size: 20px;
+
+}
+
+.player
+{
+position:relativ;
+width: 70px; height:70px;
+}
+
+.bottom_punkte{
+    float:bottom;
+    background-color: white;
+    display: inline-block;
+    height: 20px;
+    position: absolute;
+    width: 76px;
+    top:76px;
+    left:-3px;
+     text-align: center;
+   font-weight:bold;
+   color: #121271;
+
+
+}
+.bottom_punkte_4{
+    float:bottom;
+    background-color: white;
+    display: inline-block;
+    height: 40px;
+    position: absolute;
+    width: 76px;
+    top:76px;
+    left:-3px;
+     text-align: center;
+   font-weight:bold;
+   color: #121271;
+
+
+}
+
+.reservebank
+{
+  position:relativ;
+  float: left;
+  width:90px;height:300px; 
+  border:3px solid rgba(0,0,0,0.7);
+  background-color:#aaaaaa;  
+ 
+}
+
+.hovered2 {
+  border:3px solid #25AF74;
+  /* background: #FFFFFF;    
+  Falls der background sich bei feldern ohne players
+verändern soll!
+
+*/
+ 
+}
+
+.hovered{
+  border:3px solid #25AF74;
+}
+
+.hovered3 {
+  background: #FFFFFF;
+  
+}
+
+.hovered3 > img{
+ opacity:0.5;
+}
+
+
+
+ #infobox{
+   display:none;
+    position: absolute; 
+    font-size: 12 px;
+    background-color: #81B0D3;   
+    color: #121271;
+    border: 2px solid #0D4168;
+    padding: 8px;
+    border-radius:5px;
+  }
+
+ #infobox2{
+   display:none;
+    position: absolute; 
+    font-size: 12 px;
+    background-color: #81B0D3;   
+    color: #121271;
+    border: 2px solid #0D4168;
+    padding: 8px;
+    border-radius:5px;
+  }
+
+
+
+ #infobox3{
+    display:none;
+    position: absolute; 
+    font-size: 12 px;
+    background-color: #81B0D3;   
+    color: #121271;
+    border: 2px solid #0D4168;
+    padding: 8px;
+    border-radius:5px;
+  }
+ #infobox4{
+   display:none;
+    position: absolute; 
+    font-size: 12 px;
+    background-color: #81B0D3;   
+    color: #121271;
+    border: 2px solid #0D4168;
+    padding: 8px;
+    border-radius:5px;
+  }
+
+ #infobox5{
+   display:none;
+    position: absolute; 
+    font-size: 12 px;
+    background-color: #81B0D3;   
+    color: #121271;
+    border: 2px solid #0D4168;
+    padding: 8px;
+    border-radius:5px;
+  }
+tr a:hover{
+cursor:pointer;
+text-decoration: underline;
+}
+
+.line{
+border-top:1px solid #121271;
+}
+
+#whitebox{
+  width:700px;
+  height:540px;
+  background-color:white;
+}
+#chart1{
+  width:400px;
+  height: 400px;
+  top:100px;
+}
+#contentplay{
+	position:relative;
+}
+#eu_contentplay{
+	position:relative;
+}
+#na_contentplay{
+	position:relative;
+}
